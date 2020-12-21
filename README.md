@@ -1,7 +1,3 @@
-# <{%= fileName %}>
-
-> 项目A线上链接 [example.com](https://example.com/)
-
 ## 项目介绍
 
 项目简介及业务范围介绍
