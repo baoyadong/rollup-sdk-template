@@ -1,0 +1,42 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "charset": "utf8",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types/", "./client/@types/"],
+    "paths": {
+      "@components/*": ["src/Components/*"],
+      "@styles/*": ["src/styles/*"],
+      "@utils/*": ["src/utils/*"],
+      "@models/*": ["src/models/*"],
+      "@models": ["src/models/index"],
+      "@services": ["src/models/services/index.services"],
+      "@interface": ["src/models/services/index.interface"],
+      "@logger": ["@tuya-fe/next/logger"],
+      "@locales": ["src/locales/index"],
+      "@locales/*": ["src/locales/*"],
+      "@config": ["src/utils/config"]
+    },
+    "lib": ["dom", "es2015", "es2016", "es2017", "esnext"]
+  }
+}
+  
